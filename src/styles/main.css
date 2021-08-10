@@ -1,0 +1,33 @@
+.main__banner {
+  background-image: url(../images/main-prueba.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-position-y: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main__banner h1 {
+  font-size: 4rem;
+  text-shadow: 5px 6px rgb(128, 126, 126);
+}
+.main__subBanner {
+  background-color: rgb(128, 126, 126);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.main__content {
+  padding: 0 10%;
+  margin-top: 2rem;
+}
+.main__content-title {
+  display: flex;
+  justify-content: center;
+}
+.main__content-title h2 {
+  font-size: 2rem;
+}

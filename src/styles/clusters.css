@@ -1,0 +1,18 @@
+.main__content-clusters {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main__content-clusters div {
+  display: flex;
+  flex-grow: 1;
+  width: 31%;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  background: dimgrey;
+  margin: 1%;
+}
+.main__content-clusters div a {
+  color: white;
+  text-decoration: none;
+}
