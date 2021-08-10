@@ -1,0 +1,32 @@
+.header {
+  min-height: 60px;
+  display: flex;
+  background-color: #f9f9f9;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+}
+.header .header__nav a {
+  color: rgb(102, 100, 100);
+  text-decoration: none;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.header .header__nav a:hover {
+  transition: 150ms;
+  border: 2px solid rgb(102, 100, 100);
+}
+
+.header__menu-logo {
+  width: 200px;
+  object-fit: contain;
+  margin: 0 20px;
+}
