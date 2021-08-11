@@ -1,0 +1,12 @@
+.about {
+  display: flex;
+}
+
+.about__title {
+  color: rgb(102, 100, 100);
+}
+.about__image {
+  width: 200px;
+  border-radius: 150px;
+  border: 5px solid rgb(102, 100, 100);
+}

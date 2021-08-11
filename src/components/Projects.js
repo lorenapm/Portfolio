@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/clusters.css";
+import "../styles/projects.css";
 
-function Cluster() {
+function Projects() {
   return (
     <div className="main__content-clusters">
       <div>
@@ -38,4 +38,4 @@ function Cluster() {
   );
 }
 
-export default Cluster;
+export default Projects;

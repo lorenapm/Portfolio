@@ -4,6 +4,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import About from "./components/About";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         <Switch>
           <Route path="/contacto">
             <Contact />
+          </Route>
+          <Route path="/sobremi">
+            <About />
           </Route>
           <Route path="/">
             <Main />

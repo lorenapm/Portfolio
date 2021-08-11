@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/main.css";
-import Cluster from "./Cluster";
+import Projects from "./Projects";
 
 function Main() {
   return (
@@ -13,7 +13,7 @@ function Main() {
         <div className="main__content-title">
           <h2>Proyectos</h2>
         </div>
-        <Cluster />
+        <Projects />
       </div>
     </div>
   );

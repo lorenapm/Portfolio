@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header__menu">
-        <a href="">
+        <a href="/">
           <img
             className="header__menu-logo"
             src={logo}
@@ -15,7 +15,9 @@ function Header() {
         </a>
         <div className="header__nav">
           <a href="/sobremi">Sobre mi </a>
-          <a href="https://github.com/lorenapm">GitHub</a>
+          <a href="https://github.com/lorenapm" target="_blank">
+            GitHub
+          </a>
           <a href="/contacto">Contacto</a>
         </div>
       </div>
