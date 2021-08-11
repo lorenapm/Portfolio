@@ -25,13 +25,15 @@ function About() {
           oportunidad.
         </p>
       </div>
-      <a href={CVesp} target="_blank">
-        CV español
-      </a>
-      <a href={CVeng} target="_blank">
-        CV inglés
-      </a>
       <p className="about__card-text-back">#frontenddeveloper #womenintech</p>
+      <div className="about__CV">
+        <a href={CVesp} target="_blank" className="about__CV-buttom">
+          CV español
+        </a>
+        <a href={CVeng} target="_blank" className="about__CV-buttom">
+          CV inglés
+        </a>
+      </div>
     </div>
   );
 }
