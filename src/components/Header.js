@@ -14,9 +14,9 @@ function Header() {
           />
         </a>
         <div className="header__nav">
-          <a href="">Sobre mi </a>
-          <a href="">Proyectos</a>
-          <a href="">Contacto</a>
+          <a href="/sobremi">Sobre mi </a>
+          <a href="https://github.com/lorenapm">GitHub</a>
+          <a href="/contacto">Contacto</a>
         </div>
       </div>
     </div>
