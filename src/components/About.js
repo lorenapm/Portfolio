@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/about.css";
 import image from "../images/LorenaPM.jpeg";
+import CVeng from "../PDF/CV Lorena Perez Martinez-Front-end-developer_ENG.pdf";
+import CVesp from "../PDF/CV Lorena Perez Martinez-Front-end-developer.pdf";
 
 function About() {
   return (
@@ -23,8 +25,12 @@ function About() {
           oportunidad.
         </p>
       </div>
-      <a href="">CV español</a>
-      <a href="">CV inglés</a>
+      <a href={CVesp} target="_blank">
+        CV español
+      </a>
+      <a href={CVeng} target="_blank">
+        CV inglés
+      </a>
       <p className="about__card-text-back">#frontenddeveloper #womenintech</p>
     </div>
   );
